@@ -48,10 +48,12 @@ ol {
 .rightSide ul{
     display: flex;
     justify-content: end;
-    margin-right: 60px;
 }
 .rightSide ul li {
     margin-right: 55px;
+}
+.rightSide ul li:last-child {
+    margin-right: 0px;
 }
 
 .rightSide ul li a{
@@ -67,11 +69,7 @@ ol {
     padding: 9px;
     color: #fff;
 }
-.searchIcon{
-    background: #191B1D;
-    padding: 22px 19px;
-    cursor: pointer;
-}
+
 .rightSide{
     padding-top: 27px;
 }
@@ -97,3 +95,101 @@ ol {
 
 /* navigation css end  */
 
+/* banner css start */
+.bannerText h1{
+    width: 955px;
+    font-size: 90px;
+    font-weight: 700;
+    font-family: "Poppins", sans-serif;
+    color: #191B1D;
+    line-height: 113px;
+    padding-bottom: 65px;
+}
+.bannerText span{
+    color: #fff;
+    position: relative;
+}
+.bannerText span::after{
+    content: '';
+    position: absolute;
+    left: -6px;
+    top: 20px;
+    background: #191B1D;
+    width: 461px;
+    height: 80px;
+    z-index: -1;
+}
+.bannerText p{
+    width: 470px;
+    font-size: 16px;
+    font-weight: 400;
+    font-family: "Inter", sans-serif;
+    color: #191B1D;
+    line-height: 30.4px;
+    margin-left: 120px;
+}
+.bannerText{
+    position: relative;
+}
+.bannerText p::after{
+    content: '';
+    position: absolute;
+    left: 6rem;
+    top: 25.6rem;
+    width: 4px;
+    height: 175px;
+    background: #191B1D;
+}
+.bannerIcon{
+    margin-left: 95px;
+    margin-top: 10px;
+}
+.bannerIcon i{
+    width: 18.52px;
+    height: 18.52px;
+    margin-right: 26.58px;
+    color: #191B1D;
+    transition: all linear .3s;
+}
+
+.bannerIcon i:hover{
+    color: #00B2E5;
+}
+#banner{
+    padding-top: 135px;
+    padding-bottom: 135px;
+}
+
+.letsTalk{
+    width: 91px;
+    height: 91px;
+    border-radius: 50%;
+    background: #191B1D;
+    text-align: center;
+    position: absolute;
+    right: 139px;
+    top: 26rem;
+}
+.bannerMain{
+ position: relative;
+}
+
+.letsTalk a{
+    padding-top: 30px;
+    font-size: 12px;
+    font-weight: 400;
+    font-family: "Poppins", sans-serif;
+    color: #ffff;
+    padding-bottom: 8px;
+}
+.letsTalk i{
+    color: #fff;
+    cursor: pointer;
+}
+
+.bannerImg{
+    margin-top: 135px;
+    margin-bottom: 135px;
+}
+
+/* banner css end */
