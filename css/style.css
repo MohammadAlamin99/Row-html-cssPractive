@@ -189,7 +189,127 @@ ol {
 
 .bannerImg{
     margin-top: 135px;
-    margin-bottom: 135px;
 }
 
 /* banner css end */
+
+
+/* feture css start */
+#fetures{
+    padding-bottom: 135px;
+}
+.tab1 h2{
+    font-size: 50px;
+    font-weight: 600;
+    font-family: "Poppins", sans-serif;
+    -webkit-text-stroke: 1px #191b1d;
+    color: #fff;
+    position: absolute;
+    left: 0;
+    top: 53px;
+    z-index: 0;
+}
+
+.tab1 h3{
+    font-size: 100px;
+    font-weight: 600;
+    font-family: "Poppins", sans-serif;
+    color: rgba(25, 27, 29, 0.082);
+}
+
+
+.tab1.active h2{
+    font-size: 50px;
+    font-weight: 600;
+    font-family: "Poppins", sans-serif;
+    -webkit-text-stroke: 1px #191b1d;
+    color: #fff;
+    position: absolute;
+    left: 37px;
+    top: 27px;
+    z-index: 0;
+}
+
+.tab1.active h3{
+    font-size: 100px;
+    font-weight: 600;
+    font-family: "Poppins", sans-serif;
+    color: rgba(255, 255, 255, 0.205);
+    position: absolute;
+    left: 47px;
+    top: -23px;
+}
+
+
+
+
+.tab1 {
+    position: relative;
+    cursor: pointer;
+}
+
+.content {
+    display: none;
+}
+
+.content.active {
+    display: block;
+}
+
+.tab1.active{
+    background: #191B1D;
+    width: 270px;
+    height: 103px;
+}
+
+
+.content h3{
+    font-family: "Poppins", sans-serif;
+    font-size: 40px;
+    font-weight: 600;
+    line-height: 56px;
+    text-align: left;  
+    color: #191B1D;
+    padding-bottom: 18px;
+    width: 550px;
+}
+.content p{
+    font-family: "Inter", sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 30.4px;
+    text-align: left;    
+    color: #191B1D;
+    padding-bottom: 24px;
+    width: 470px;
+}
+
+.tabMini h4{
+    font-family: "Inter", sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 26.6px;
+    text-align: left;
+    color: #191B1D;
+}
+.tabMini{
+    display: flex;
+}
+.tabMini i{
+    width: 10.97px;
+    height: 10.96px;
+    color: #191B1D;
+    margin-right: 16px;
+    margin-top: 8px;
+}
+
+.mainFeature{
+    display: flex;
+    justify-content: space-between;
+}
+
+
+
+/* feture css end */
+
+

@@ -24,12 +24,12 @@
      }
     /* navigation css end */
 
-
        /* banner css start */
        .bannerImg img{
         width: 100% !important;
       }
   /* banner css end */
+
 
 
 }
@@ -128,8 +128,44 @@
       }
   /* banner css end */
 
+    /* Feature css start */
+    .mainFeature {
+      flex-direction: column;
+    }
 
-}
+    .tab{
+      display: flex;
+      justify-content: space-between;
+    }
+    .tab1.active h2 {
+      font-size: 35px !important;
+      left: 22px !important;
+      top: 34px !important;
+    }
+    .tab1 h2 {
+      font-size: 35px !important;
+      left: 8px !important;
+      top: 60px !important;
+    }
+    .tab1.active{
+      width: 200px !important;
+      height: 97px !important;
+    }
+
+    .tab1.active h3 {
+      font-size: 80px !important;
+      left: 22px !important;
+      top: -10px !important;
+      }
+    .tab1.active h3 {
+      font-size: 80px !important;
+      }
+
+    }
+  /* Feature css end */
+
+
+
 
 
 @media (min-width: 576px) and (max-width: 767px) {
